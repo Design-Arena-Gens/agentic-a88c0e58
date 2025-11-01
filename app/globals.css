@@ -1,0 +1,16 @@
+:root{--bg:#0b0b0f;--fg:#e8e9ee;--muted:#a7abbb;--card:#12121a;--accent:#6ee7b7;--accent-2:#60a5fa}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+.container{max-width:900px;margin:0 auto;padding:32px}
+.card{background:var(--card);border:1px solid #1e1e2a;border-radius:14px;padding:22px}
+h1{font-size:28px;margin:0 0 12px}
+p.lead{color:var(--muted);margin:0 0 22px}
+textarea{width:100%;min-height:220px;background:#0c0c13;color:var(--fg);border:1px solid #222336;border-radius:12px;padding:14px;resize:vertical;font-size:14px;line-height:1.5}
+.section-title{margin:22px 0 10px;color:var(--accent)}
+.row{display:grid;grid-template-columns:1fr;gap:18px}
+@media(min-width:900px){.row{grid-template-columns:1fr 1fr}}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid #1f2937;background:#121826;color:#e5e7eb;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn:hover{border-color:#2b3649;background:#162031}
+.badge{display:inline-block;background:#0d1a12;color:#b6f3d8;border:1px solid #183d2e;border-radius:999px;padding:4px 10px;font-size:12px}
+.footer{margin-top:22px;color:var(--muted);font-size:12px}
+.copy-row{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:10px}
+.small{font-size:12px;color:var(--muted)}
